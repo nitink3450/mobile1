@@ -12,3 +12,10 @@
   position: absolute;
   top: -70px
 }
+
+@media screen and (max-width:330px) {
+  .svgIMG {
+    top: -50px
+  }
+
+}
