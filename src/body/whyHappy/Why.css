@@ -1,0 +1,45 @@
+.why-cont {
+    height: auto;
+    width: auto;
+    /* border: 1px solid green; */
+    position: relative;
+    z-index: 1;
+}
+
+.why-cont .head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    /* border: 1px solid rgb(11, 80, 255); */
+}
+
+.head .rightSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head .rightSide img {
+    height: 20px;
+}
+
+.head .rightSide .deepDive {
+    font-family: 'Sora', sans-serif;
+    font-weight: 570;
+    font-size: 16px;
+    line-height: 120%;
+    color: #9284EC;
+    margin-right: 5px;
+}
+
+.head .happienesText {
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    color: #1C1B1F;
+}
+.cards{
+    padding: 20px 10px;
+    display: flex;
+    overflow: hidden;
+}

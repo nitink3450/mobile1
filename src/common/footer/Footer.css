@@ -1,0 +1,22 @@
+.footer-cont{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+
+}
+.footer-cont .box {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    /* border: 1px solid white; */
+}

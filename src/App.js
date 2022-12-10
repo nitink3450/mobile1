@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Circle from './body/circles/Circle';
+import Gratitude from './body/gratitude/Gratitude';
+import Keep from './body/keepWatch/Keep';
+import Why from './body/whyHappy/Why';
+import Footer from './common/footer/Footer';
+import Header from './common/header/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="container">
+        <Header />
+        <Gratitude />
+        <Keep />
+        <Circle />
+        <Why />
+        <Footer />
+
+      </div>
+    </>
   );
 }
 

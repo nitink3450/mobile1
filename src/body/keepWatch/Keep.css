@@ -1,0 +1,111 @@
+.keep-cont {
+    width: auto;
+    height: auto;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    background-color: #CDD2F6;
+    padding: 15px 12px;
+    position: relative;
+    overflow: hidden;
+}
+
+.keep-cont .text {
+    font-family: 'Sora';
+    /* border: 1px solid red; */
+    line-height: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+.keep-cont .text .marginBotton {
+    margin-bottom: 5px;
+}
+
+.keep-cont .text .keepText {
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(60, 60, 61, 0.6);
+}
+
+.keep-cont .text .practiceText {
+    width: 228px;
+    font-size: 27px;
+    line-height: 120%;
+    font-weight: 900;
+}
+
+.keep-cont .text .Course {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(60, 60, 61, 0.6);
+}
+
+.keep-cont .text .Course p {
+    margin-left: 8px;
+    margin-top: 2px;
+}
+
+.button {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    width: 207px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 5px 6px 4px black;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 15px;
+    z-index: 1;
+    position: relative;
+}
+
+.button .right-b {
+    /* border: 1px solid violet; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    flex-flow: column;
+    padding: 5px 10px;
+}
+
+.button .right-b .lesson {
+    font-style: normal;
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(60, 60, 61, 0.6);
+}
+
+.button .right-b .when {
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1C1B1F;
+
+}
+
+.back-img {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+}
+
+.back-img img {
+    height: 254px;
+    width: 227px;
+    position: absolute;
+    z-index: 0;
+    top: -4px;
+    right: -39px;
+}

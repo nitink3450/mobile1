@@ -1,0 +1,25 @@
+.grati-cont{
+    /* border: 2px solid rgb(0, 242, 255); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #CDD2F6;
+    padding: 10px 10px;
+}
+.grati-cont .left{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* border: 2px solid rgb(0, 242, 255); */
+    background-color: white;
+    border-radius: 15px;
+    padding:6px 10px;
+    font-family: 'Sora', sans-serif;
+}
+.grati-cont .grat{
+    /* font-family: 'Sora', sans-serif; */
+    font-weight: bold;
+    color: #7A7FEF;
+    font-size: 12.9px;
+    margin-left: 2px;
+}

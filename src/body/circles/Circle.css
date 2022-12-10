@@ -1,0 +1,25 @@
+.circle-cont {
+    /* border: 1px solid red; */
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    position: relative;
+    z-index: 1;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.box1 img {
+    height: 80px;
+}
+
+.box1 p {
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 120%;
+    
+}
