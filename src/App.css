@@ -1,5 +1,14 @@
-.container{
+.container {
   height: auto;
   width: auto;
   /* border: 1px solid blue; */
+}
+
+.svgDiv {
+  position: relative;
+}
+
+.svgIMG {
+  position: absolute;
+  top: -70px
 }
